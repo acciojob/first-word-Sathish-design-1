@@ -1,5 +1,7 @@
 function firstWord(str) {
-    return str.split(' ')[0];
+    if(str.indexOf(' ') === -1){
+	   return str;
+}
 }
 
 const s = prompt("Enter String:");
